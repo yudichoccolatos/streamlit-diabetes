@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 #membaca model
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open("diabetes_model.sav", "rb"))
 
 #Judul Web
 st.title ('Data Mining Diabetes')
